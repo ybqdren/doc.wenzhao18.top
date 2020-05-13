@@ -1,4 +1,4 @@
-<!-- /_navbar.md -->
+<!-- Musicser/MusicBase/_navbar.md -->
 
 - 码农的自我修养
   - [Java学习笔记](/Coder/JavaLearn/)

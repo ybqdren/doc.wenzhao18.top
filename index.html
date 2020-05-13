@@ -13,13 +13,23 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'My Docs',
+      name: '<h1>NOTES</h1>',
       repo: '',
 	  loadNavbar: true,
 	  coverpage: true,
-	  onlyCover: true
+	  onlyCover: true,
+	  loadSidebar: true,
+	  search: 'auto',
+	  auto2top: true,
+	  relativePath: true,
+	  themeColor: '#3F51B5',
+	  mergeNavbar: true
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="docsify/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
