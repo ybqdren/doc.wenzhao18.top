@@ -8,12 +8,16 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">加载中......</div>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script>
     window.$docsify = {
       name: '赵雯的笔记本',
@@ -28,6 +32,12 @@
 	  relativePath: true,
 	  themeColor: '#3F51B5',
 	  mergeNavbar: true,
+	  pagination: {
+            previousText: '上一篇',
+            nextText: '下一篇',
+            crossChapter: true,
+            crossChapterText: true,
+        },
       formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
       plugins: [
         function(hook, vm) {
@@ -39,19 +49,18 @@
           })
         }
       ]
-    },
-	 const gitalk = new Gitalk({
+    }
+	 var gitalk = new Gitalk({
 	 clientID: '2a13406bd35bd4708e04',
 	 clientSecret: '60b611ae9bd05946eaee2dcc4ade8fd963c15a70',
 	 repo: 'doc.wenzhao18.top',
 	 owner: 'ybqdren',
 	 admin: ['ybqdren'],
 	 // facebook-like distraction free mode
-	 distractionFreeMode: false})
+	 distractionFreeMode: false
+	 })
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="docsify/lib/plugins/search.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
 </body>
 </html>
