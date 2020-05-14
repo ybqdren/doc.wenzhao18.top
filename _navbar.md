@@ -8,4 +8,3 @@
 * 音乐民工在路上
   * [基础乐理](/Musicser/musicBase/)
   * [编曲笔记](/Musicser/musicMix/)
-

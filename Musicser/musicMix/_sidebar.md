@@ -1,39 +1,10 @@
 <!-- docs/Coder/Java/_sidebar.md -->
 
-* [写在开头](/Coder/JavaLearn/)
+* [写在开头](README)
 
-* [JavaSE](/Coder/JavaLearn/JavaSE/)
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [javaWeb](/Coder/JavaLearn/JavaEE/)
+* [基础复习](三和弦练习前的基础)
 
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
+* [三和弦练习:musical_note:](/Musicser/musicMix/基础编曲练习)
 
+  
 
-
-* [<h2> MORE </h2>](/)
