@@ -28,13 +28,11 @@
 
 <br>
 
-:thumbsdown:
+:anger:
 
-装逼犯离我远一点啊啊啊啊啊:speech_balloon:
+装逼犯请离我远一点啊啊啊啊啊:speech_balloon:
 
 <image src="/images/访客足迹.png"></image><span id="busuanzi_container_site_pv" style="color:#3F51B5"> <span id="busuanzi_value_site_pv"></span></span>
-
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 </span>
 

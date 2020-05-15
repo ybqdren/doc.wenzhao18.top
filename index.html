@@ -14,8 +14,6 @@
   <div id="app">加载中......</div>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script>
@@ -26,6 +24,7 @@
 	  coverpage: true,
 	  onlyCover: true,
 	  loadSidebar: true,
+	  subMaxLevel: 10,
 	  relativePath: true,
 	  search: 'auto',
 	  auto2top: true,
@@ -50,7 +49,13 @@
         }
       ]
     }
-	 var gitalk = new Gitalk({
+  </script>
+  
+   <!-- Gitalk评论 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+	 const gitalk = new Gitalk({
 	 clientID: '2a13406bd35bd4708e04',
 	 clientSecret: '60b611ae9bd05946eaee2dcc4ade8fd963c15a70',
 	 repo: 'doc.wenzhao18.top',
