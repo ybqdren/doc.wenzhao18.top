@@ -1,39 +1,5 @@
 <!-- docs/Coder/Java/_sidebar.md -->
 
-* [写在开头](/Coder/JavaLearn/)
+* [写在开头](/Coder/DSLearn/)
 
-* [JavaSE](/Coder/JavaLearn/JavaSE/)
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [Java 基本语法]()
-* [javaWeb](/Coder/JavaLearn/JavaEE/)
-
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-* [JavaWeb知识]()
-
-
-
-* [<h2> MORE </h2>](/)
+* [冒泡排序](/Coder/DSLearn/算法/冒泡排序)
